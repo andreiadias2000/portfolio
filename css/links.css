@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00f2fe;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 0.9rem;
+    color: #a0a0a0;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.link-btn {
+    display: block;
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid #333;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.link-btn:hover {
+    background-color: #333;
+    border-color: #555;
+    transform: translateY(-2px);
+}
+
+/* Um estilo um pouquinho diferente para destacar o botão do portfólio antigo */
+.destaque {
+    background-color: #2a2a2a;
+    border-color: #00f2fe;
+    color: #00f2fe;
+}
+
+.destaque:hover {
+    background-color: #00f2fe;
+    color: #1a1a1a;
+}
